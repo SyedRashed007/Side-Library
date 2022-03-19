@@ -1,0 +1,12 @@
+.border-none {
+  border: none;
+}
+.border-r-unset {
+  border-right: unset;
+}
+.border-r-1 {
+  border-radius: 1rem;
+}
+.border-r-10 {
+  border-right: 10rem;
+}

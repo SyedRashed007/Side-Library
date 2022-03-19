@@ -1,0 +1,63 @@
+.header {
+  align-items: center;
+  border-bottom: thin solid var(--lightBlue);
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  margin-left: auto;
+  display: flex;
+}
+.nav-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+.nav-link a {
+  color: var(--grey);
+  position: relative;
+}
+.nav-link a::after {
+  background-color: var(--lightBlue);
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s, left 0.3s;
+}
+.nav-link a:hover::after {
+  left: 0;
+  width: 100%;
+}
+.brand-logo {
+  border-radius: 50%;
+  border: thin solid var(--lightBlue);
+}
+.link-brand {
+  color: var(--grey);
+}
+.main {
+  color: var(--grey);
+  margin: 10rem auto 0;
+}
+.btn {
+  background: none;
+  transition: background-color 0.3s;
+}
+.btn-home {
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.1rem var(--lightBlue);
+  margin: 3rem 1rem 1rem 0;
+}
+.btn-primary-solid {
+  background-color: var(--darkBlue);
+  color: var(--white);
+}
+.btn-primary-solid:hover {
+  background-color: var(--darkerBlue);
+}
+.btn-primary-outline {
+  background-color: var(--white);
+  border: thin solid var(--lightBlue);
+  color: var(--darkBlue);
+}
