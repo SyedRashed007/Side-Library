@@ -1,0 +1,16 @@
+.aside-left {
+  grid-area: aside-left;
+  border-right: thin solid var(--light);
+}
+.aside-left-container {
+  background: var(--white);
+  margin: 3rem 1rem 1rem 3rem;
+  position: fixed;
+}
+.aside-left-link {
+  margin: 1rem 0 1.2rem 1.5rem;
+}
+.aside-left-list {
+  font-size: 2.1rem;
+  color: var(--grey);
+}
