@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side-UI</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets//logos/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/apple-touch-icon.png"
+      sizes="180x180"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="app.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header px-2p5 py-1">
+        <img
+          class="brand-logo h-7 w-7"
+          src="/assets/logos/apple-touch-icon.png"
+          alt="Brand Logo"
+        />
+        <a class="link-brand ml-1p5 fs-3p5" href="/index.html">Side UI</a>
+
+        <nav class="navbar">
+          <ul class="list-no-bullet">
+            <li class="nav-link fs-2">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a href="#">Documentation</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a
+                href="https://github.com/SyedRashed007/Side-Library"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main fs-2p5 text-center w-60">
+        <h1>
+          Design your projects faster and better with
+          <span class="d-block">Side UI</span>
+        </h1>
+
+        <a href="#">
+          <button
+            class="btn outline-none border-none m-0p5 py-1p5 cursor-ptr fs-2 w-20 border-r-1 btn-primary-solid btn-squared btn-home"
+          >
+            Get Started
+          </button>
+        </a>
+
+        <a href="https://github.com/SyedRashed007/Side-Library" target="_blank">
+          <button
+            class="btn outline-none border-none m-0p5 py-1p5 cursor-ptr fs-2 w-20 border-r-1 btn-primary-outline btn-squared btn-home"
+          >
+            Github
+          </button>
+        </a>
+      </main>
+
+      <footer
+        class="footer-home justify-c-ctr align-i-ctr flex w-99 p-3 overflow-hidden"
+      >
+        <div class="text-center">
+          <div class="fs-1p7 fw-bold my-1">Connect with me</div>
+
+          <ul class="flex">
+            <li class="mx-1 nav-link">
+              <a
+                href="https://twitter.com/SyedRasheduddin"
+                class="fs-2"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="mx-1 nav-link">
+              <a
+                href="https://github.com/SyedRashed007"
+                class="fs-2"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="mx-1 nav-link">
+              <a
+                href="https://www.linkedin.com/in/syed-rasheduddin/"
+                target="_"
+                class="fs-2 link"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

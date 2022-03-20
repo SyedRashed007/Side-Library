@@ -1,0 +1,42 @@
+@import url("css/main.css");
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white);
+  font-size: 1.6rem;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.link {
+  color: inherit;
+  position: relative;
+}
+.link::after {
+  background: var(--grey);
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: width 0.3s, left 0.3s;
+  width: 0;
+}
+.link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.footer-home {
+  border-top: thin solid var(--lightBlue);
+  position: absolute;
+  bottom: 0;
+}
