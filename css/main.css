@@ -20,6 +20,6 @@
 /* Pages */
 
 @import url("pages/Home/home.css");
-@import url("pages/Documentation/aside-left.css");
-@import url("pages/Documentation/aside-right.css");
-@import url("pages/Documentation/documentation.css");
+@import url("pages/Introduction/introduction.css");
+@import url("pages/Introduction/aside-left.css");
+@import url("pages/Introduction/aside-right.css");

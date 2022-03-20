@@ -1,0 +1,45 @@
+.introduction {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "aside-left main aside-right";
+  grid-template-columns: 25rem 1fr 25rem;
+  grid-template-rows: 8rem 1fr;
+}
+
+.header-introduction {
+  background-color: var(--white);
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.main-introduction {
+  grid-area: main;
+  padding: 5rem 2rem 3rem 4rem;
+  color: var(--grey);
+}
+.main-text {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.section-component {
+  border-top: thin solid var(--lightBlue);
+}
+.section-text {
+  font-size: 1.65rem;
+  line-height: 1.5rem;
+  color: var(--grey);
+}
+.component-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: thin solid var(--lightBlue);
+  background: var(--light);
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 50%;
+}
