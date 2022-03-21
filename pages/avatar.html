@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side-UI</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets//logos/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/apple-touch-icon.png"
+      sizes="180x180"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../app.css" />
+  </head>
+  <body>
+    <div class="container introduction m-auto p-2">
+      <header class="header header-introduction px-2p5">
+        <img
+          class="brand-logo h-7 w-7"
+          src="/assets/logos/apple-touch-icon.png"
+          alt="Brand Logo"
+        />
+        <a class="link-brand ml-1p5 fs-3p5" href="/index.html">Side UI</a>
+
+        <nav class="navbar">
+          <ul class="list-no-bullet">
+            <li class="nav-link fs-2">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a href="#">Documentation</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a
+                href="https://github.com/SyedRashed007/Library-documentation"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside class="aside-left">
+        <div class="aside-left-container">
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-left-link">
+              <a class="link link-active" href="/pages/introduction.html"
+                >Introduction</a
+              >
+            </li>
+          </ul>
+
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-left-link">
+              <a class="link" href="#">Alert</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Avatar</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Badge</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Button</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Card</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Image</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Input</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">List</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Modal</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Rating</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main id="avatar" class="main-introduction">
+        <h1 class="mb-3">Avatar Component</h1>
+        <p class="main-text">
+          Avatar component is used to represent a user, and displays the profile
+          picture
+        </p>
+        <div class="avatar-container mt-3 pt-3">
+          <h2>Size avatar</h2>
+          <div class="mt-2">
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar sm"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar md"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar lg"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar xl"
+            />
+          </div>
+        </div>
+        <p class="main-text mt-3">
+          Use the below code to use simple avatars with different variations.
+        </p>
+        <div id="snippet" class="code-container mt-3">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=60px&wc=true&wa=true&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=103%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2509src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520sm%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520md%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520lg%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520xl%2522%250A%252F%253E"
+            style="
+              width: 350px;
+              height: 393px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <div id="square" class="avatar-container mt-3 pt-3">
+          <h2>Sqaure avatar</h2>
+          <div class="mt-2">
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar sm square"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar md square"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar lg square"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar xl square"
+            />
+          </div>
+        </div>
+        <p class="main-text mt-3">
+          Use the below code to use simple avatars with different variations.
+        </p>
+        <div id="snippet" class="code-container mt-3">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=60px&wc=true&wa=true&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=103%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2509src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520sm%2520square%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520md%2520square%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520lg%2520square%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520xl%2520square%2522%250A%252F%253E"
+            style="
+              width: 333px;
+              height: 393px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <div id="border-size" class="avatar-container mt-3 pt-3">
+          <h2>Border size avatar</h2>
+          <div class="mt-2">
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar sm border-green"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar md border-red"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar lg border-green"
+            />
+            <img
+              src="https://picsum.photos/80/120"
+              alt="Avatar"
+              class="avatar xl border-red"
+            />
+          </div>
+        </div>
+        <p class="main-text mt-3">
+          Use the below code to use simple avatars with different variations.
+        </p>
+        <div id="snippet" class="code-container mt-3">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=60px&wc=true&wa=true&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=103%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2509src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520sm%2520border-green%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520md%2520border-red%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520lg%2520border-green%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520%2520%2520src%253D%2522...%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520xl%2520border-red%2522%250A%252F%253E"
+            style="
+              width: 389px;
+              height: 393px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </main>
+
+      <aside class="aside-right">
+        <div class="aside-right-container">
+          <ul class="aside-right-list mb-2">
+            <h3 class="my-1p5">On this Page</h3>
+            <li class="aside-right-link">
+              <a class="link" href="#avatar">Size avatars</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#square">Sqaure avatars</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#border-size">Border size avatars</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
