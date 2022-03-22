@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side-UI</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets//logos/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/apple-touch-icon.png"
+      sizes="180x180"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../app.css" />
+  </head>
+  <body>
+    <div class="container introduction m-auto p-2">
+      <header class="header header-introduction px-2p5">
+        <img
+          class="brand-logo h-7 w-7"
+          src="/assets/logos/apple-touch-icon.png"
+          alt="Brand Logo"
+        />
+        <a class="link-brand ml-1p5 fs-3p5" href="/index.html">Side UI</a>
+
+        <nav class="navbar">
+          <ul class="list-no-bullet">
+            <li class="nav-link fs-2">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a href="#">Documentation</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a
+                href="https://github.com/SyedRashed007/Library-documentation"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside class="aside-left">
+        <div class="aside-left-container">
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-left-link">
+              <a class="link link-active" href="/pages/introduction.html"
+                >Introduction</a
+              >
+            </li>
+          </ul>
+
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-left-link">
+              <a class="link" href="#">Alert</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Avatar</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Badge</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Button</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Card</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Image</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Input</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">List</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Modal</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Rating</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main id="badge" class="main-introduction">
+        <h1 class="mb-3">Badge Component</h1>
+        <p class="main-text">
+          Badge can be used to show either status of the user (online, or
+          offline) or you can use it show notification count.
+        </p>
+        <div id="small" class="badge-container mt-2 pt-2">
+          <h2>Text with Badge</h2>
+          <p class="text m-3p5">
+            Text with badge<span class="badge badge-on-text">4</span>
+          </p>
+          <div id="snippet" class="code-container mt-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text%2522%253E%250A%2520%2520Text%2520with%2520badge%250A%2520%2520%2509%253Cspan%2520class%253D%2522badge%2520badge-on-text%2522%253E4%253C%252Fspan%253E%250A%253C%252Fp%253E"
+              style="
+                width: 400px;
+                height: 165px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="large" class="badge-container mt-2 pt-2">
+          <h2>Text with Large Badge</h2>
+          <p class="text m-3p5">
+            Text with large badge<span class="badge large-badge-on-text"
+              >12</span
+            >
+          </p>
+          <div id="snippet" class="code-container mt-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text%2522%253E%250A%2520%2520Text%2520with%2520large%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520large-badge-on-text%2522%253E12%253C%252Fspan%253E%250A%253C%252Fp%253E"
+              style="
+                width: 400px;
+                height: 159px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="button" class="badge-container mt-2 pt-2">
+          <h2>Button with a badge</h2>
+          <button class="btn-primary-outline btn-squared btn-home w-8 h-3p5">
+            Click
+          </button>
+          <p class="badge badge-on-btn">8</p>
+          <div id="snippet" class="code-container mt-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-outline%2520btn-squared%2520btn-home%2520w-8%2520h-3p5%2522%253E%250A%2520%2520Click%250A%253C%252Fbutton%253E%250A%253Cp%2520class%253D%2522badge%2520badge-on-btn%2522%253E8%253C%252Fp%253E"
+              style="
+                width: 400px;
+                height: 155px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="card" class="badge-container mt-2 pt-2">
+          <h2 class="pb-3">Button with a badge</h2>
+          <i class="fas fa-address-card avatar-icon"></i>
+          <p class="badge badge-on-icon">8</p>
+          <div id="snippet" class="code-container mt-3">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522fas%2520fa-address-card%2520avatar-icon%2522%253E%253C%252Fi%253E%250A%253Cp%2520class%253D%2522badge%2520badge-on-icon%2522%253E8%253C%252Fp%253E"
+              style="
+                width: 400px;
+                height: 131px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+
+      <aside class="aside-right">
+        <div class="aside-right-container">
+          <ul class="aside-right-list mb-2">
+            <h3 class="my-1p5">On this Page</h3>
+            <li class="aside-right-link">
+              <a class="link" href="#small">Text with avatar</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#large">Text with large avatar</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#button">Button with a badge</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#card">Button with a badge</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/bbba0f11e7.js "
+      crossorigin="anonymous "
+    ></script>
+  </body>
+</html>
