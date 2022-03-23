@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side-UI</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets//logos/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/apple-touch-icon.png"
+      sizes="180x180"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../app.css" />
+  </head>
+  <body>
+    <div class="container introduction m-auto p-2">
+      <header class="header header-introduction px-2p5">
+        <img
+          class="brand-logo h-7 w-7"
+          src="/assets/logos/apple-touch-icon.png"
+          alt="Brand Logo"
+        />
+        <a class="link-brand ml-1p5 fs-3p5" href="/index.html">Side UI</a>
+
+        <nav class="navbar">
+          <ul class="list-no-bullet">
+            <li class="nav-link fs-2">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a href="#">Documentation</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a
+                href="https://github.com/SyedRashed007/Library-documentation"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside class="aside-left">
+        <div class="aside-left-container">
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-left-link">
+              <a class="link link-active" href="/pages/introduction.html"
+                >Introduction</a
+              >
+            </li>
+          </ul>
+
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-left-link">
+              <a class="link" href="#">Alert</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Avatar</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Badge</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Button</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Card</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Image</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Input</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">List</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Modal</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Rating</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main id="input" class="main-introduction">
+        <h1 class="mb-3">Input</h1>
+        <p class="main-text">Input is used to take data from the user.</p>
+
+        <div id="text" class="input-container mt-3 pt-3">
+          <h2 class="pb-2">Text area</h2>
+          <div class="textarea-container">
+            <textarea
+              class="textarea"
+              placeholder="Enter Your Message"
+            ></textarea>
+            <button class="btn btn-primary-solid textarea-btn">Send</button>
+          </div>
+          <div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522textarea-container%2522%253E%250A%2520%2520%253Ctextarea%250A%2520%2520%2520%2520class%253D%2522textarea%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Message%2522%253E%250A%2520%2520%253C%252Ftextarea%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2520textarea-btn%2522%253ESend%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 577px;
+                height: 220px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="form" class="input-container mt-3 pt-3">
+          <h2 class="pb-2">Form Input</h2>
+          <form class="form">
+            <input class="input" type="email" placeholder="Enter Your Email" />
+            <input
+              class="input"
+              type="password"
+              placeholder="Enter Your Password"
+            />
+
+            <button class="btn btn-error-solid">Log In</button>
+          </form>
+          <div class="mt-2 pt-2">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%253Cinput%2520%250A%2520%2520%2520%2520class%253D%2522input%2522%2520%250A%2520%2520%2520%2520type%253D%2522email%2522%2520%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Email%2522%2520%250A%2520%2520%252F%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Password%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-error-solid%2522%253ELog%2520In%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+              style="
+                width: 468px;
+                height: 299px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="error" class="input-container mt-3 pt-3">
+          <h2 class="pb-2">Error Form Input</h2>
+          <form class="form">
+            <span class="msg-error">Enter correct Email and Password</span>
+            <input
+              class="input input-error"
+              type="email"
+              name="email-id"
+              placeholder="Enter Your Email"
+            />
+            <input
+              class="input input-error"
+              type="password"
+              name="password"
+              placeholder="Enter Your Password"
+            />
+
+            <button class="btn btn-error-solid">Log In</button>
+          </form>
+
+          <div class="mt-2 pt-2">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522msg-error%2522%253EEnter%2520correct%2520Email%2520and%2520Password%253C%252Fspan%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520class%253D%2522input%2520input-error%2522%250A%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520name%253D%2522email-id%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Email%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520class%253D%2522input%2520input-error%2522%250A%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Password%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-error-solid%2522%253ELog%2520In%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+              style="
+                width: 569px;
+                height: 400px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="radio" class="input-container mt-3 pt-3">
+          <h2 class="pb-2">Radio Input</h2>
+          <div class="radio-container">
+            <div>
+              <input type="radio" name="radio" id="checked" />
+              <label for="checked" class="check">
+                <span class="check">Male</span>
+              </label>
+            </div>
+
+            <div>
+              <input type="radio" name="radio" id="unchecked" />
+              <label for="unchecked" class="check">
+                <span class="check">Female</span>
+              </label>
+            </div>
+
+            <div>
+              <input type="radio" name="radio" id="unchecked" disabled />
+              <label for="unchecked">
+                <span class="check">Disabled</span>
+              </label>
+            </div>
+          </div>
+          <div class="mt-2 pt-2">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio-container%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio%2522%2520id%253D%2522checked%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522checked%2522%2520class%253D%2522check%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check%2522%253EMale%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio%2522%2520id%253D%2522unchecked%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522unchecked%2522%2520class%253D%2522check%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check%2522%253EFemale%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio%2522%2520id%253D%2522unchecked%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522unchecked%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check%2522%253EDisabled%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 553px;
+                height: 450px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="checkbox" class="input-container mt-3 pt-3">
+          <h2 class="pb-2">Checkbox Input</h2>
+          <div class="checkbox-container">
+            <div>
+              <input type="checkbox" name="checkbox" id="checked" />
+              <label for="checked">
+                <span class="check">Checked</span>
+              </label>
+            </div>
+            <div>
+              <input type="checkbox" name="checkbox" id="unchecked" />
+              <label for="unchecked">
+                <span class="check">Unchecked</span>
+              </label>
+            </div>
+            <div>
+              <input type="checkbox" name="checkbox" id="unchecked" disabled />
+              <label for="unchecked">
+                <span class="check">Disabled</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="mt-2 pt-2">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=44px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox-container%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522checkbox%2522%2520id%253D%2522checked%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522checked%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check%2522%253EChecked%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522checkbox%2522%2520id%253D%2522unchecked%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522unchecked%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check%2522%253EUnchecked%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522checkbox%2522%2520id%253D%2522unchecked%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522unchecked%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check%2522%253EDisabled%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 603px;
+                height: 480px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+
+      <aside class="aside-right">
+        <div class="aside-right-container">
+          <ul class="aside-right-list mb-2">
+            <h3 class="my-1p5">On this Page</h3>
+            <li class="aside-right-link">
+              <a class="link" href="#text">Text Area</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#form">Form</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#error">Error Form</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#radio">Radio Input</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#checkbox">Checkbox Input</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/bbba0f11e7.js "
+    crossorigin="anonymous "
+  ></script>
+</html>
