@@ -1,0 +1,33 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 1px solid var(--lightBlue);
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40rem;
+  padding-bottom: 1rem;
+}
+/* make the res-img-container responsive */
+.res-img-container {
+  width: 100%;
+  height: auto;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.res-img {
+  border-radius: 0;
+  width: 100%;
+}
+.square-img {
+  border-radius: 0;
+  width: 300px;
+}
