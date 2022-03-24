@@ -55,14 +55,6 @@
   padding: 1rem;
   font-size: 1.3rem;
 }
-.btn {
-  background: none;
-  border: none;
-  margin: 0.5rem;
-  border-radius: 1rem;
-  padding: 1rem 1.5rem;
-  cursor: pointer;
-}
 .btn:hover {
   background-color: var(--darkRed);
 }
@@ -78,7 +70,7 @@
   color: var(--white);
 }
 .btn-primary-solid:hover {
-  background-color: var(--lightBlue);
+  background-color: var(--secondary);
 }
 .radio-container,
 .checkbox-container {
