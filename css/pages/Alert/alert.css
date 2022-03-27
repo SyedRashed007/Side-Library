@@ -1,0 +1,86 @@
+.introduction {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "aside-left main aside-right";
+  grid-template-columns: 25rem 1fr 25rem;
+  grid-template-rows: 8rem 1fr;
+}
+
+.header-introduction {
+  background-color: var(--white);
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.main-introduction {
+  grid-area: main;
+  padding: 5rem 2rem 3rem 4rem;
+  color: var(--grey);
+}
+.main-text {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.section-component {
+  border-top: thin solid var(--lightBlue);
+}
+.section-text {
+  font-size: 1.65rem;
+  line-height: 1.5rem;
+  color: var(--grey);
+}
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+  border: 1px solid var(--grey);
+}
+.alert {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 0.5rem;
+}
+.alert-primary {
+  color: var(--alert-primary);
+  background-color: var(--alert-primary-background);
+  border: 2px solid var(--alert-primary-border);
+}
+.alert-secondary {
+  color: var(--alert-secondary);
+  background-color: var(--alert-secondary-background);
+  border: 2px solid var(--alert-secondary-border);
+}
+.alert-success {
+  color: var(--alert-success);
+  background-color: var(--alert-success-background);
+  border: 2px solid var(--alert-success-border);
+}
+.alert-danger {
+  color: var(--alert-danger);
+  background-color: var(--alert-danger-background);
+  border: 2px solid var(--alert-danger-border);
+}
+.alert-warning {
+  color: var(--alert-warning);
+  background-color: var(--alert-warning-background);
+  border: 2px solid var(--alert-warning-border);
+}
+.alert-info {
+  color: var(--alert-info);
+  background-color: var(--alert-info-background);
+  border: 2px solid var(--alert-info-border);
+}
+.alert-light {
+  color: var(--alert-light);
+  background-color: var(--alert-light-background);
+  border: 2px solid var(--alert-light-border);
+}
+.alert-dark {
+  color: var(--alert-dark);
+  background-color: var(--alert-dark-background);
+  border: 2px solid var(--alert-dark-border);
+}
