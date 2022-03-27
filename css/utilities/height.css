@@ -1,9 +1,14 @@
 .h-100pct {
   height: 100%;
 }
-
 .h-3p5 {
   height: 3.5rem;
+}
+.h-4 {
+  height: 4rem;
+}
+.h-5 {
+  height: 5rem;
 }
 .h-6 {
   height: 6rem;
