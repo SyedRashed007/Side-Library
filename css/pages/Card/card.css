@@ -157,14 +157,16 @@
   font-weight: 100;
   padding: 0.5rem 1rem;
 }
-.overlay-btn-icon .card-btn {
+.card-btn {
   border: none;
   outline: none;
   font-size: 1.5rem;
-}
-.overlay-btn-icon .btn:hover {
   background-color: var(--white);
   color: var(--darkBlue);
+  font-weight: 600;
+}
+.card-btn:hover {
+  opacity: 0.8;
 }
 .overlay-btn-icon div {
   display: flex;
@@ -181,16 +183,6 @@
 }
 .text-overlay .img-content .card-title {
   color: var(--white);
-}
-.outlined-secondary {
-  background-color: var(--white);
-  color: var(--darkBlue);
-  border: 0.5px solid var(--darkBlue);
-}
-.outlined-secondary:hover {
-  color: var(--white);
-  background-color: var(--darkBlue);
-  padding: 0.5rem 1rem;
 }
 .card-dismiss {
   width: 40rem;

@@ -55,22 +55,13 @@
   padding: 1rem;
   font-size: 1.3rem;
 }
-.btn:hover {
-  background-color: var(--lightBlue);
-}
 .btn-error-solid {
   background-color: var(--red);
   color: var(--white);
 }
-.btn-error-solid:hover {
-  background: var(--darkRed);
-}
 .btn-primary-solid {
   background-color: var(--darkBlue);
   color: var(--white);
-}
-.btn-primary-solid:hover {
-  background-color: var(--darkBlue);
 }
 .radio-container,
 .checkbox-container {
