@@ -23,4 +23,11 @@
 @import url("pages/Introduction/introduction.css");
 @import url("pages/Introduction/aside-left.css");
 @import url("pages/Introduction/aside-right.css");
+
+@import url("pages/Avatar/avatar.css");
+@import url("pages/Alert/alert.css");
+@import url("pages/Badge/badge.css");
+@import url("pages/Button/button.css");
+@import url("pages/Card/card.css");
+@import url("pages/Images/image.css");
 @import url("pages/Input/input.css");
