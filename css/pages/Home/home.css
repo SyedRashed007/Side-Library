@@ -54,7 +54,7 @@
   color: var(--white);
 }
 .btn-primary-solid:hover {
-  background-color: var(--darkerBlue);
+  background-color: var(--lightBlue);
 }
 .btn-primary-outline {
   background-color: var(--white);
