@@ -37,8 +37,6 @@
   flex-direction: column;
   overflow: hidden;
   border-radius: 0.5rem;
-  border: thin solid var(--lightBlue);
-  background: var(--light);
   padding: 1rem;
   margin-top: 2rem;
   width: 50%;
