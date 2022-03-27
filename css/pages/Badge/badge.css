@@ -1,0 +1,40 @@
+.badge-container {
+  border-top: 1px solid var(--lightBlue);
+}
+.badge {
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: var(--red);
+  border-radius: 50%;
+  width: max-content;
+  color: var(--white);
+}
+
+.badge-on-text {
+  top: -2rem;
+  left: -1.5rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.large-badge-on-text {
+  top: -2rem;
+  left: -1.5rem;
+  padding: 0.7rem 1rem;
+}
+
+.badge-on-btn {
+  top: -6.5rem;
+  left: -1rem;
+  padding: 0.5rem 1rem;
+}
+
+.avatar-icon {
+  font-size: 48px;
+}
+
+.badge-on-icon {
+  top: -6.5rem;
+  left: 4rem;
+  padding: 0.5rem 1rem;
+}
