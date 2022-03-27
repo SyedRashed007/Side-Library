@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side-UI</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets//logos/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/apple-touch-icon.png"
+      sizes="180x180"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../app.css" />
+  </head>
+  <body>
+    <div class="container introduction m-auto p-2">
+      <header class="header header-introduction px-2p5">
+        <img
+          class="brand-logo h-7 w-7"
+          src="/assets/logos/apple-touch-icon.png"
+          alt="Brand Logo"
+        />
+        <a class="link-brand ml-1p5 fs-3p5" href="/index.html">Side UI</a>
+
+        <nav class="navbar">
+          <ul class="list-no-bullet">
+            <li class="nav-link fs-2">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a href="#">Documentation</a>
+            </li>
+            <li class="nav-link fs-2">
+              <a
+                href="https://github.com/SyedRashed007/Library-documentation"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside class="aside-left">
+        <div class="aside-left-container">
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Getting Started</h3>
+            <li class="aside-left-link">
+              <a class="link link-active" href="/pages/introduction.html"
+                >Introduction</a
+              >
+            </li>
+          </ul>
+
+          <ul class="aside-left-list mb-2">
+            <h3 class="my-1p5">Components</h3>
+            <li class="aside-left-link">
+              <a class="link" href="#">Alert</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Avatar</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Badge</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Button</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Card</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Image</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Input</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">List</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Modal</a>
+            </li>
+            <li class="aside-left-link">
+              <a class="link" href="#">Rating</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main id="alert" class="main-introduction">
+        <h1 class="mb-3">Alert Component</h1>
+        <p class="main-text">
+          An alert displays a short, important message in a way that attracts
+          the user's attention without interrupting the user's task.
+        </p>
+        <div class="alert-container p-1 mt-3">
+          <div class="alert alert-primary p-1" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <div class="alert alert-secondary p-1" role="alert">
+            A simple secondary alert—check it out!
+          </div>
+          <div class="alert alert-success p-1" role="alert">
+            A simple success alert—check it out!
+          </div>
+          <div class="alert alert-danger p-1" role="alert">
+            A simple danger alert—check it out!
+          </div>
+          <div class="alert alert-warning p-1" role="alert">
+            A simple warning alert—check it out!
+          </div>
+          <div class="alert alert-info p-1" role="alert">
+            A simple info alert—check it out!
+          </div>
+          <div class="alert alert-light p-1" role="alert">
+            A simple light alert—check it out!
+          </div>
+          <div class="alert alert-dark p-1" role="alert">
+            A simple dark alert—check it out!
+          </div>
+        </div>
+        <p class="main-text mt-2">
+          Use the below code to use simple alerts with different variations.
+        </p>
+        <div id="snippet" class="code-container mt-2">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3As9hv9kln5a&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=60px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2509A%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%2520role%253D%2522alert%2522%253E%250A%2509A%2520simple%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-light%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520light%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520dark%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+            style="
+              width: 399px;
+              height: 464px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </main>
+
+      <aside class="aside-right">
+        <div class="aside-right-container">
+          <ul class="aside-right-list mb-2">
+            <h3 class="my-1p5">On this Page</h3>
+            <li class="aside-right-link">
+              <a class="link" href="#alert">Components</a>
+            </li>
+            <li class="aside-right-link">
+              <a class="link" href="#snippet">Code</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
