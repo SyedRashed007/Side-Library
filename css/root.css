@@ -26,6 +26,33 @@
   --lightGrey: #88898b;
   --darkGreen: #008000;
 
+  --alert-primary: #084298;
+  --alert-secondary: #41464b;
+  --alert-success: #0f5132;
+  --alert-danger: #842029;
+  --alert-warning: #664d03;
+  --alert-info: #055160;
+  --alert-light: #636464;
+  --alert-dark: #141619;
+
+  --alert-primary-background: #cfe2ff;
+  --alert-secondary-background: #e2e3e5;
+  --alert-success-background: #d1e7dd;
+  --alert-danger-background: #f8d7da;
+  --alert-warning-background: #fff3cd;
+  --alert-info-background: #cff4fc;
+  --alert-light-background: #fefefe;
+  --alert-dark-background: #d3d3d4;
+
+  --alert-primary-border: #b6d4fe;
+  --alert-secondary-border: #d3d6d8;
+  --alert-success-border: #badbcc;
+  --alert-danger-border: #f5c2c7;
+  --alert-warning-border: #ffecb5;
+  --alert-info-border: #b6effb;
+  --alert-light-border: #fdfdfe;
+  --alert-dark-border: #bcbebf;
+
   --max: 81.25rem;
   font-family: "Montserrat", sans-serif;
 
